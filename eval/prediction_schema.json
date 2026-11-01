@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "bug_present": {
+      "type": "boolean"
+    },
+    "bug_line": {
+      "type": ["integer", "null"]
+    },
+    "bug_category": {
+      "type": ["string", "null"],
+      "enum": ["B1", "B2", "B3", "B4", "B5", "B6", null]
+    },
+    "confidence": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "rationale": {
+      "type": "string"
+    }
+  },
+  "required": ["bug_present", "bug_line", "bug_category", "confidence", "rationale"]
+}

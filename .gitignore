@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+.env
+.env.*
+!.env.example
+/output/
+/tmp/
+*.zip
+
+# Data and results are distributed through Zenodo.
+/data/
+/results/
+/DATASET_CITATION.cff
+/DATASET_SHA256SUMS.txt
+/SHA256SUMS.txt
+
+# LaTeX build products.
+paper/build/
+paper/render/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.bbl
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+type: software
+title: "BioSciReview-Bench evaluation code"
+message: "If you use this benchmark, please cite the paper below and the dataset (DOI: 10.5281/zenodo.23862936)."
+authors:
+  - family-names: Qiu
+    given-names: Junhao
+    affiliation: Independent Researcher
+date-released: 2026-11-01
+license: MIT
+repository-code: "https://github.com/qchiujunhao/BioSciReview-Bench"
+url: "https://github.com/qchiujunhao/BioSciReview-Bench"
+preferred-citation:
+  type: conference-paper
+  title: "BioSciReview-Bench: Benchmarking Coding Agents on Silent Scientific Bug Detection in Bioinformatics Code"
+  authors:
+    - family-names: Qiu
+      given-names: Junhao
+  collection-title: "Proceedings of the Second Workshop for REsearch on Agent Language Models (REALM 2026)"
+  publisher:
+    name: Association for Computational Linguistics
+  year: 2026
+  month: 10
+  start: 947
+  end: 956
+  doi: "10.18653/2026.realm-1.65"
+  url: "https://aclanthology.org/2026.realm-1.65/"

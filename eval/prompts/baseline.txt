@@ -1,0 +1,25 @@
+You are reviewing a single bioinformatics code snippet for silent scientific methodology bugs.
+
+The snippet may be methodologically valid or may contain one methodology bug. The bug, if present, may not cause a runtime error. Decide whether there is a scientific or methodological bug, identify the displayed rendered line number of the root cause, and assign the closest bug category.
+
+Report the displayed rendered line number, not the original source line number.
+
+Bug categories:
+{bug_categories}
+
+Scientific intent:
+{task_description}
+
+Code:
+{code}
+
+Return only JSON matching this schema:
+{
+  "bug_present": true or false,
+  "bug_line": integer displayed rendered line number or null,
+  "bug_category": "B1" or "B2" or "B3" or "B4" or "B5" or "B6" or null,
+  "confidence": number from 0 to 1 or null,
+  "rationale": "concise explanation"
+}
+
+If bug_present is false, bug_line and bug_category must be null. Do not include markdown.

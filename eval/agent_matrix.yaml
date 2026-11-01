@@ -1,0 +1,37 @@
+codex_gpt54:
+  harness: codex_cli
+  provider: openai
+  model: gpt-5.4
+  result_dir: codex_gpt54
+
+codex_gpt55:
+  harness: codex_cli
+  provider: openai
+  model: gpt-5.5
+  result_dir: codex_gpt55
+
+claude_code_sonnet46:
+  harness: claude_code
+  provider: anthropic
+  model: claude-sonnet-4-6
+  result_dir: claude_code_sonnet46
+
+claude_code_opus48:
+  harness: claude_code
+  provider: anthropic
+  model: claude-opus-4-8
+  result_dir: claude_code_opus48
+
+claude_code_deepseek_flash:
+  harness: claude_code
+  provider: deepseek
+  gateway: anthropic_compatible
+  model: deepseek-v4-flash
+  result_dir: claude_code_deepseek_flash
+
+claude_code_deepseek_pro:
+  harness: claude_code
+  provider: deepseek
+  gateway: anthropic_compatible
+  model: deepseek-v4-pro
+  result_dir: claude_code_deepseek_pro
